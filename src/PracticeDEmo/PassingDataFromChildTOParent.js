@@ -12,7 +12,7 @@ const Parent=()=>{
 }
 
 const Child=(props)=>{
-var message ="Hello I am child... and coming from child";
+var message ="Hello I am child... and coming from child welcome to child";
     return <>
     <h4>I am CHild</h4>
     <h4>{props.handleCallback(message) } </h4>
